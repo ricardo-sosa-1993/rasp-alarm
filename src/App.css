@@ -1,0 +1,11 @@
+body {
+  height: 100vh;
+  padding: 0;
+  background-color: #282c34;
+}
+
+.App-title {
+  margin-top: 15%;
+  text-align: center;
+  color: #fff;
+}
