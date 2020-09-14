@@ -1,0 +1,51 @@
+.modal-transition-enter {
+    opacity: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+
+.modal-transition-enter-active,
+.modal-transition-enter-done {
+    opacity: 1;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    transition: opacity 300ms;
+}
+
+.modal-transition-exit {
+    background-color: white;
+    opacity: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+
+.modal-transition-exit-active {
+    background-color: white;
+    opacity: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    transition: opacity 300ms;
+}
+
+.Close-icon {
+    color: black;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}

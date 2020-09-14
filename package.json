@@ -8,9 +8,13 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "johnny-five": "^2.0.0",
+    "qrcode.react": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
+    "react-transition-group": "^4.4.1",
+    "socket.io-client": "^2.3.0",
     "uuid": "^8.3.0"
   },
   "scripts": {
@@ -18,7 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "electron": "electron .",
+    "electron": "electron src/electron.js",
     "dev": "nf start"
   },
   "eslintConfig": {
@@ -38,6 +42,7 @@
   },
   "devDependencies": {
     "electron": "^10.1.1",
+    "electron-rebuild": "^2.0.3",
     "foreman": "^3.0.1"
   }
 }

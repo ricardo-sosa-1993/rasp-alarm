@@ -1,11 +1,60 @@
 body {
   height: 100vh;
   padding: 0;
-  background-color: #282c34;
+  background-color: #1D99BB;
+  color: #fff;
 }
 
 .App-title {
-  margin-top: 15%;
+  margin-top: 10%;
   text-align: center;
-  color: #fff;
+}
+
+.Qr-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Connection-status {
+  font-size: 14px;
+  text-align: end;
+  margin-right: 5px;
+}
+
+.Connection-status .label {
+  font-weight: bold;
+}
+
+.Menu-container {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.Menu-button {
+  font-size: 17px;
+  padding: 15px 20px;
+  border-width: 1.5px;
+  border-radius: 5px;
+  border-color: #146b82;
+  color: #146b82;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+.Connection-status-dot {
+  height: 11px;
+  width: 11px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.success{
+  background-color: yellowgreen;
+}
+
+.error {
+  background-color: red;
 }
