@@ -1,0 +1,1 @@
+To run dev mode run `npm run start:dev`
