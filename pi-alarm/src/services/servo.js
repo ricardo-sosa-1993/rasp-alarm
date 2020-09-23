@@ -1,4 +1,4 @@
-const electron = window.require('electron');
+const electron = require('electron');
 const ipc = electron.ipcRenderer;
 
 function setSetServoPositionListener(callback) {

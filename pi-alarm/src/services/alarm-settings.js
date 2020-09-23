@@ -1,4 +1,4 @@
-const electron = window.require('electron');
+const electron = require('electron');
 const fs = electron.remote.require('fs');
 const { app } = electron.remote;
 const path = require('path');
